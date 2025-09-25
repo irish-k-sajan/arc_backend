@@ -2,7 +2,8 @@ from fastapi import FastAPI
 
 app = FastAPI()
 origins = [
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "https://sharath-tiger-arc-fr-dkky.bolt.host"
 ]
 
 app.add_middleware(
